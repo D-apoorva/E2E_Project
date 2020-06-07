@@ -25,7 +25,7 @@ public class HomePage extends Base {
 	@Test(dataProvider="getData")
 	public void pageNavigation(String email, String password) throws IOException
 	{
-		System.out.println("new from git");
+		System.out.println("new from github");
 		driver.get(prop.getProperty("url"));
 		LandingPage lp=new LandingPage(driver);
 		
