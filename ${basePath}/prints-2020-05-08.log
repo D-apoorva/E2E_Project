@@ -1,0 +1,6 @@
+18:23:57.097 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xad7b0755746cee58
+18:24:01.373 [main] INFO  practice.E2Eproject.HomePage - browser invoked for validation test case
+18:24:09.990 [main] INFO  practice.E2Eproject.HomePage - browser closed for validation test case
+18:24:20.675 [main] INFO  practice.E2Eproject.HomePage - browser invoked for login case
+18:24:27.207 [main] INFO  practice.E2Eproject.HomePage - url entered
+18:24:38.233 [main] INFO  practice.E2Eproject.HomePage - email entered

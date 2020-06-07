@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48416" started-at="2020-05-11T23:23:15Z" finished-at="2020-05-11T23:24:03Z">
+    <groups>
+    </groups>
+    <test name="validation" duration-ms="17196" started-at="2020-05-11T23:23:15Z" finished-at="2020-05-11T23:23:32Z">
+      <class name="practice.E2Eproject.ValidateText">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:practice.E2Eproject.ValidateText@ad498c]" name="openBrowser" is-config="true" duration-ms="17011" started-at="2020-05-11T23:23:15Z" finished-at="2020-05-11T23:23:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Validate()[pri:0, instance:practice.E2Eproject.ValidateText@ad498c]" name="Validate" duration-ms="102" started-at="2020-05-11T23:23:32Z" finished-at="2020-05-11T23:23:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:practice.E2Eproject.ValidateText@ad498c]" name="closeDriver" is-config="true" duration-ms="43" started-at="2020-05-11T23:23:32Z" finished-at="2020-05-11T23:23:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- practice.E2Eproject.ValidateText -->
+    </test> <!-- validation -->
+    <test name="HomePage" duration-ms="30752" started-at="2020-05-11T23:23:32Z" finished-at="2020-05-11T23:24:03Z">
+      <class name="practice.E2Eproject.HomePage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:practice.E2Eproject.HomePage@1d1433e]" name="openBrowser" is-config="true" duration-ms="17849" started-at="2020-05-11T23:23:32Z" finished-at="2020-05-11T23:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:practice.E2Eproject.HomePage@1d1433e]" name="pageNavigation" duration-ms="6898" started-at="2020-05-11T23:23:50Z" data-provider="getData" finished-at="2020-05-11T23:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method status="PASS" signature="pageNavigation(java.lang.String, java.lang.String)[pri:0, instance:practice.E2Eproject.HomePage@1d1433e]" name="pageNavigation" duration-ms="5861" started-at="2020-05-11T23:23:57Z" data-provider="getData" finished-at="2020-05-11T23:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:practice.E2Eproject.HomePage@1d1433e]" name="closeDriver" is-config="true" duration-ms="137" started-at="2020-05-11T23:24:03Z" finished-at="2020-05-11T23:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- practice.E2Eproject.HomePage -->
+    </test> <!-- HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>

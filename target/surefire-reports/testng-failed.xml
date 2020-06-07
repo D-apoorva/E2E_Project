@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="practice.E2Eproject.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="validation(failed)">
+    <classes>
+      <class name="practice.E2Eproject.ValidateText">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="Validate"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- practice.E2Eproject.ValidateText -->
+    </classes>
+  </test> <!-- validation(failed) -->
+  <test thread-count="5" verbose="0" name="HomePage(failed)">
+    <classes>
+      <class name="practice.E2Eproject.HomePage">
+        <methods>
+          <include name="pageNavigation"/>
+          <include name="openBrowser"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- practice.E2Eproject.HomePage -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
