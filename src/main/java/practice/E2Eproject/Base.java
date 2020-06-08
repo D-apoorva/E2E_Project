@@ -25,9 +25,9 @@ public class Base {
 		{
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resources\\chromedriver.exe");
 			
-			ChromeOptions options= new ChromeOptions(); // used for running test without opening browser window
-			options.addArguments("headless","user-agent=rock");
-			driver=new ChromeDriver(options);	
+			//ChromeOptions options= new ChromeOptions(); // used for running test without opening browser window
+			//options.addArguments("headless","user-agent=rock");
+			driver=new ChromeDriver();	
 		}
 		else if(browserName.equals("firefox"))
 		{
